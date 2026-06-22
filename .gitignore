@@ -1,0 +1,30 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and cache
+backend/venv/
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Local SQLite database and saved conversations
+data/*.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
